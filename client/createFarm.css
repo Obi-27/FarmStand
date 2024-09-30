@@ -1,0 +1,80 @@
+@font-face {
+   font-family: "Futura";
+   src: url("docs/ui-design/futura.ttc") format("truetype");
+}
+
+
+
+.container-fluid {
+   padding-left: 0;
+   padding-right: 0;
+}
+
+#farmIconText {
+   margin-bottom: 20%;
+}
+
+.full-width {
+   width: 100%;
+   background-color: #f5f5f5;
+   font-family: "Futura", sans-serif;
+   padding-left: 0%;
+   padding-right: 0%;
+}
+
+body {
+   font-family: "Futura", sans-serif;
+}
+
+#profileImage {
+   height: auto;
+   max-width: 30%;
+}
+
+.navbar {
+    width: 100%;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+.delete-add-button {
+   background-color: transparent;
+   border: none;
+   outline: none;
+}
+
+
+.mapboxgl-ctrl-geocoder--icon-search {
+   display: none;
+}
+.custom-geocoder-class {
+   width: 100%;
+   border-radius: 10px;
+   outline: 1px solid rgb(223, 219, 219);
+   outline-offset: 1px;
+}
+
+.mapboxgl-ctrl-geocoder--pin-right {
+   display: none;
+}
+
+
+.clickable:hover {
+   cursor: pointer;
+}
+/* 
+#search-for-card{
+   
+}
+
+#add-card{
+
+} */
+
+#search-row{
+   padding-left: 2%;
+   padding-right:2%
+}
+#page-content{
+   padding-left: 2%;
+   padding-right:2%
+}
